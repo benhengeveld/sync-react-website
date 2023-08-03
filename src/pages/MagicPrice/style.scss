@@ -1,0 +1,41 @@
+#magic-card-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#card-box {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: 1em;
+
+  div {
+    flex: 1;
+  }
+}
+
+#card-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-height: 70vh;
+    max-width: 100%;
+  }
+}
+
+#card-info {
+  h1 {
+    margin-bottom: 16px;
+  }
+}
+
+@media (orientation: portrait) {
+  #card-box {
+    flex-direction: column;
+  }
+}
