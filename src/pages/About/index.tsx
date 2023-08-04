@@ -17,6 +17,7 @@ import javaSvg from "assets/svgs/java.svg";
 import javascriptSvg from "assets/svgs/javascript.svg";
 import linkedinSvg from "assets/svgs/linkedin.svg";
 import nodedotjsSvg from "assets/svgs/nodedotjs.svg";
+import react from "assets/svgs/react.svg";
 import sassSvg from "assets/svgs/sass.svg";
 import sqlSvg from "assets/svgs/sql.svg";
 import typescriptSvg from "assets/svgs/typescript.svg";
@@ -34,6 +35,7 @@ const icons: { name: string; file: string }[] = [
   { file: javaSvg, name: "Java" },
   { file: javascriptSvg, name: "JavaScript" },
   { file: nodedotjsSvg, name: "Node.js" },
+  { file: react, name: "React" },
   { file: sassSvg, name: "Sass" },
   { file: sqlSvg, name: "SQL" },
   { file: typescriptSvg, name: "TypeScript" },
